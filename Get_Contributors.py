@@ -10,3 +10,5 @@ while True:
     page_count = page_count + 1
 count=len(all_contributors)
 print("-------------------%d" %count)
+for contributor in all_contributors:
+    print str(contributor['login'])
